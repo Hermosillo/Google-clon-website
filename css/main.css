@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a {
+  margin-right: 15px;
+  color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+main {
+  text-align: center;
+  margin-top: 150px;
+}
+
+main .main-logo {
+  margin-bottom: 35px;
+}
+main .main-logo img{
+  width: 272px;
+}
+main .main-input{
+  width: 585px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-input-container input {
+  height: 44px;
+  width: 450px;
+  border: none;
+  outline: none;
+  padding-left: 18px;
+  font-size: 16px;
+}
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #dfe1e5;
+  border-color: #dfe1e5;
+}
+main .main-input .search-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+main .main-buttons input{
+  background-color: #f1f1f1;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #5f6368;
+  width: 500;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+main .main-buttons input:hover {
+  box-shadow: 0 1px 1px 0 #dfe1e5;
+  color: #222;
+}
+
+footer {
+  background-color: #f1f1f1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #717171;
+  font-size: 15px;
+}
+.country-section{
+  padding: 10px 25px;
+  border-bottom: 1px solid #dfe1e5;
+}
+.footer-bottom-section{
+  padding: 12px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom-section a{
+  color: #717171;
+}
+.about a{
+  margin-right: 20px;
+}
+.privacity-conditions a {
+  margin-left: 20px;
+}
